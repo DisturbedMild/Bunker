@@ -1,4 +1,4 @@
-# bunker
+# Bunker
 
 Bunker - interractive game for people(from 6 to 16 players).
  
