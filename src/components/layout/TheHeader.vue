@@ -5,19 +5,22 @@
        <router-link to="/home" class="text-decoration-none white--text">BUNKER</router-link>
     </v-app-bar-title>
    <v-item-group width="900">
-    <v-item>
-     <router-link to="/play">Найти Игру</router-link>
+    <v-item class="mx-4">
+     <router-link to="/game">Найти Игру</router-link>
     </v-item>
-    <v-item>
+    <v-item class="mx-4">
      <router-link to="/rules">Правила</router-link>
     </v-item>
-    <v-item>
+    <v-item class="mx-4">
      <router-link to="/cards">Карточки</router-link>
     </v-item>
-    <v-item>
+    <v-item class="mx-4">
+     <router-link to="/about">Про Проект</router-link>
+    </v-item>
+    <v-item class="mx-4">
      <base-button>Логин</base-button>
     </v-item>
-    <v-item>
+    <v-item class="mx-4">
      <base-button>Регистрация</base-button>
     </v-item>
    </v-item-group>
@@ -27,7 +30,7 @@
 
 <style scoped>
 .v-item-group {
- width: 800px;
+ /* width: 800px; */
  display: flex;
  justify-content: space-between;
 }
@@ -43,6 +46,8 @@
  color: white;
  font-size: 14px;
  transition: 0.3s all;
+ font-weight: 700;
+ font-family: Arial, sans-serif;
 }
 .v-item-group a:hover {
  background-color: #00695c;

@@ -1,18 +1,22 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Vue from "vue";
+import VueRouter from "vue-router";
 
-Vue.use(VueRouter)
+import SearchGamePage from "../components/pages/game/SearchGamePage.vue";
+import RulesPage from "../components/pages/rules/RulesPage.vue";
+import CardsPage from "../components/pages/cards/CardsPage.vue";
+import AboutPage from "../components/pages/about/AboutPage.vue";
+
+Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    // component: Home
-  },
-]
+ { path: "/game", component: SearchGamePage },
+ { path: "/rules", component: RulesPage },
+ { path: "/cards", component: CardsPage },
+ { path: "/about", component: AboutPage },
+];
 
 const router = new VueRouter({
-  routes
-})
+ routes,
+});
 
-export default router
+export default router;

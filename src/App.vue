@@ -1,7 +1,11 @@
 <template>
- <v-app >
+ <v-app>
   <the-header></the-header>
-  <v-main class="grey darken-4"></v-main>
+  <v-main class="grey darken-4">
+   <v-container >
+    <router-view></router-view>
+   </v-container>
+  </v-main>
   <the-footer></the-footer>
  </v-app>
 </template>
