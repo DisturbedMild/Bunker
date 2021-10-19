@@ -21,4 +21,8 @@ button:hover {
  background-color: #00695c;
  color: #fff;
 }
+button:disabled {
+    background-color: grey;
+    border: grey;
+}
 </style>

@@ -1,4 +1,4 @@
-# bunker
+# Bunker
 
 ## Project setup
 ```
